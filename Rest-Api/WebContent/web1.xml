@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<servlet>
+  <servlet-name>RestApi</servlet-name> 
+  <servlet-class>RestApi</servlet-class>
+  <init-param>
+    <param-name>RestApi</param-name> 
+    <param-value>apiJava</param-value> 
+  </init-param>
+  <servlet-mapping>
+     <servlet-name>RestApi</servlet-name>
+     <url-pattern>/api/*</url-pattern>
+  </servlet-mapping>
+</servlet>
+ 
